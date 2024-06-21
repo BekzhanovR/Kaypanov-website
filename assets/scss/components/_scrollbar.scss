@@ -1,0 +1,47 @@
+/* Global styling for Webkit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1c1c1e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffff00;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-button {
+    background: #1c1c1e;
+}
+
+::-webkit-scrollbar-corner {
+    background: #888;
+}
+
+/* Global styling for non-Webkit browsers */
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #ffff00;
+}
+
+/* Specific element styling */
+.your-element-class {
+    scrollbar-width: thin;
+    scrollbar-color: #ffff00;
+}
+
+.your-element-class::-webkit-scrollbar {
+    width: 12px;
+}
+
+.your-element-class::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.your-element-class::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+}
