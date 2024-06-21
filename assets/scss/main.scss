@@ -8,3 +8,13 @@
 @import "base/reset";
 @import "base/base";
 @import "base/typography";
+
+// Components styles
+@import "components/particles";
+@import "components/container";
+@import "components/buttons";
+@import "components/cards";
+
+// Layouts styles
+@import "layout/header";
+@import "layout/hero";

@@ -6,12 +6,12 @@ html {
     box-sizing: inherit;
 }
   
-html:focus-within {
+html {
     scroll-behavior: smooth;
 }
   
 html, body {
-    height: 100%;
+    height: auto;
 }
   
 * {
@@ -19,6 +19,7 @@ html, body {
 }
   
 body {
+    position: relative;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
 }
