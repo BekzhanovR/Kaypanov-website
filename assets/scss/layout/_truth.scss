@@ -1,0 +1,25 @@
+.the-truth{
+    width: 100%;
+    padding: 120px 0px;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        .title{
+            font-size: 48px;
+            text-align: center;
+
+            span{
+                color: #FFD503;
+            }
+        }
+
+        .the-truth-cards{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+    }
+}

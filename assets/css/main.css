@@ -376,6 +376,28 @@ header .container img {
   font-weight: 600;
 }
 
+.the-truth {
+  width: 100%;
+  padding: 120px 0px;
+}
+.the-truth .container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.the-truth .container .title {
+  font-size: 48px;
+  text-align: center;
+}
+.the-truth .container .title span {
+  color: #FFD503;
+}
+.the-truth .container .the-truth-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
 /* Global styling for Webkit browsers */
 ::-webkit-scrollbar {
   width: 8px;
@@ -456,6 +478,39 @@ header .container img {
 .stats-card:hover .bg {
   width: calc(100% + 200px);
   height: calc(100% + 200px);
+}
+
+.the-truth-card {
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #FFD500;
+  background-color: #3e3e3f;
+  position: relative;
+}
+.the-truth-card .left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.the-truth-card .left .card-title {
+  font-size: 24px;
+  color: #FAE59E;
+}
+.the-truth-card .left .card-description {
+  font-size: 24px;
+  color: #DDDDDD;
+}
+.the-truth-card .right span {
+  font-size: 100px;
+  color: #FAE59E;
+}
+.the-truth-card .right img {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
 }
 
 #particles-js {
