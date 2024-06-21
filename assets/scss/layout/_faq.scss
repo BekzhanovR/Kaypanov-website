@@ -4,7 +4,11 @@
     background-color: #fff;
     
     .container{
-        .first-section{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        
+        .first-section, .second-section{
             display: flex;
             flex-direction: column;
             gap: 60px;

@@ -347,26 +347,31 @@ header .container img {
   padding: 120px 0px;
   background-color: #fff;
 }
-.faq .container .first-section {
+.faq .container {
   display: flex;
   flex-direction: column;
   gap: 60px;
 }
-.faq .container .first-section .title {
+.faq .container .first-section, .faq .container .second-section {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.faq .container .first-section .title, .faq .container .second-section .title {
   text-align: center;
   font-size: 48px;
   color: #000;
 }
-.faq .container .first-section div {
+.faq .container .first-section div, .faq .container .second-section div {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
-.faq .container .first-section div .paragraph {
+.faq .container .first-section div .paragraph, .faq .container .second-section div .paragraph {
   font-size: 24px;
   color: #000;
 }
-.faq .container .first-section div span {
+.faq .container .first-section div span, .faq .container .second-section div span {
   font-size: 24px;
   font-weight: 600;
 }
