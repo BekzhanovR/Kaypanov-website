@@ -20,28 +20,3 @@
 ::-webkit-scrollbar-corner {
     background: #888;
 }
-
-/* Global styling for non-Webkit browsers */
-body {
-    scrollbar-width: thin;
-    scrollbar-color: #ffff00;
-}
-
-/* Specific element styling */
-.your-element-class {
-    scrollbar-width: thin;
-    scrollbar-color: #ffff00;
-}
-
-.your-element-class::-webkit-scrollbar {
-    width: 12px;
-}
-
-.your-element-class::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-.your-element-class::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 6px;
-}
