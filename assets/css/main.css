@@ -244,98 +244,6 @@ pre, code {
   font-weight: 500;
 }
 
-#particles-js {
-  height: 100%;
-  background-color: #1c1c1e;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-}
-
-.container {
-  width: 80%;
-  max-width: 1940px;
-  margin: 0 auto;
-}
-
-.btn {
-  border: none;
-  border-radius: 30px;
-  padding: 18px 36px;
-  font-size: 22px;
-  font-weight: 600;
-  letter-spacing: 2.2px;
-}
-.btn.primary-button {
-  background-color: #ffff00;
-  box-shadow: 0px 0px 50px 0px rgba(255, 213, 3, 0.7294117647);
-}
-
-.stats-card {
-  position: relative;
-  border: 3px solid #FFD500;
-  border-radius: 20px;
-  height: 100%;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  overflow: hidden;
-  z-index: 1;
-}
-.stats-card span {
-  font-size: 36px;
-  color: #fff;
-  font-weight: 700;
-}
-.stats-card .paragraph {
-  font-size: 28px;
-}
-.stats-card .bg {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background-color: #FFD500;
-  top: -100px;
-  right: -50px;
-  border-radius: 50%;
-  transition: 0.4s ease-in-out;
-  z-index: -1;
-}
-.stats-card:hover {
-  cursor: pointer;
-  color: #fff;
-}
-.stats-card:hover .bg {
-  width: calc(100% + 200px);
-  height: calc(100% + 200px);
-}
-
-/* Global styling for Webkit browsers */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #1c1c1e;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #ffff00;
-  border-radius: 6px;
-}
-
-::-webkit-scrollbar-button {
-  background: #1c1c1e;
-}
-
-::-webkit-scrollbar-corner {
-  background: #888;
-}
-
 header {
   height: 10vh;
   background-color: transparent;
@@ -432,4 +340,125 @@ header .container img {
 .about .container .companies .companies-logo {
   display: flex;
   gap: 60px;
+}
+
+.faq {
+  width: 100%;
+  padding: 120px 0px;
+  background-color: #fff;
+}
+.faq .container .first-section {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.faq .container .first-section .title {
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+}
+.faq .container .first-section div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.faq .container .first-section div .paragraph {
+  font-size: 24px;
+  color: #000;
+}
+.faq .container .first-section div span {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Global styling for Webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1c1c1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffff00;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-button {
+  background: #1c1c1e;
+}
+
+::-webkit-scrollbar-corner {
+  background: #888;
+}
+
+.container {
+  width: 80%;
+  max-width: 1940px;
+  margin: 0 auto;
+}
+
+.btn {
+  border: none;
+  border-radius: 30px;
+  padding: 18px 36px;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 2.2px;
+}
+.btn.primary-button {
+  background-color: #ffff00;
+  box-shadow: 0px 0px 50px 0px rgba(255, 213, 3, 0.7294117647);
+}
+
+.stats-card {
+  position: relative;
+  border: 3px solid #FFD500;
+  border-radius: 20px;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+  z-index: 1;
+}
+.stats-card span {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 700;
+}
+.stats-card .paragraph {
+  font-size: 28px;
+}
+.stats-card .bg {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #FFD500;
+  top: -100px;
+  right: -50px;
+  border-radius: 50%;
+  transition: 0.4s ease-in-out;
+  z-index: -1;
+}
+.stats-card:hover {
+  cursor: pointer;
+  color: #fff;
+}
+.stats-card:hover .bg {
+  width: calc(100% + 200px);
+  height: calc(100% + 200px);
+}
+
+#particles-js {
+  height: 100%;
+  background-color: #1c1c1e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }/*# sourceMappingURL=main.css.map */

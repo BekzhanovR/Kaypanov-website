@@ -1,0 +1,35 @@
+.faq{
+    width: 100%;
+    padding: 120px 0px;
+    background-color: #fff;
+    
+    .container{
+        .first-section{
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+
+            .title{
+                text-align: center;
+                font-size: 48px;
+                color: #000;
+            }
+
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+
+                .paragraph{
+                    font-size: 24px;
+                    color: #000;
+                }
+
+                span{
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
