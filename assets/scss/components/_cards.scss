@@ -1,0 +1,44 @@
+.stats-card{
+    position: relative;
+    border: 3px solid #FFD500;
+    border-radius: 20px;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+    z-index: 1;
+
+    span{
+        font-size: 36px;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .paragraph{
+        font-size: 28px;
+    }
+
+    .bg{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #FFD500;
+        top: -100px;
+        right: -50px;
+        border-radius: 50%;
+        transition: .4s ease-in-out;
+        z-index: -1;
+    }
+
+    &:hover{
+        cursor: pointer;
+        color: #fff;
+
+        .bg{
+            width: calc(100% + 200px);
+            height: calc(100% + 200px);
+        }
+    }
+}
