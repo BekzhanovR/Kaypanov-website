@@ -82,3 +82,31 @@
         }
     }
 }
+
+.what-do-you-need{
+    .container{
+        .cards{
+            .card{
+                border-radius: 20px;
+                background: linear-gradient(108.26deg, #FAE59E 0%, #FFEEB5 51%, #DCC26B 100%);
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .card-desc{
+                    width: 265px;
+                    font-size: 24px;
+                    color: #000;
+                    font-weight: 600;
+                }
+
+                .card-number{
+                    font-size: 160px;
+                    color: #000;
+                    opacity: .4;
+                }
+            }
+        }
+    }
+}

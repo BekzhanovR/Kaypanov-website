@@ -388,6 +388,7 @@ header .container img {
 .the-truth .container .title {
   font-size: 48px;
   text-align: center;
+  text-transform: uppercase;
 }
 .the-truth .container .title span {
   color: #FFD503;
@@ -396,6 +397,31 @@ header .container img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+}
+
+.what-do-you-need {
+  padding: 120px 0px;
+}
+.what-do-you-need .container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.what-do-you-need .container .title {
+  font-size: 48px;
+  text-align: center;
+}
+.what-do-you-need .container .title span {
+  color: #FFD503;
+}
+.what-do-you-need .container .cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.what-do-you-need .container .button {
+  display: flex;
+  justify-content: center;
 }
 
 /* Global styling for Webkit browsers */
@@ -511,6 +537,26 @@ header .container img {
   position: absolute;
   bottom: 0;
   right: 40px;
+}
+
+.what-do-you-need .container .cards .card {
+  border-radius: 20px;
+  background: linear-gradient(108.26deg, #FAE59E 0%, #FFEEB5 51%, #DCC26B 100%);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.what-do-you-need .container .cards .card .card-desc {
+  width: 265px;
+  font-size: 24px;
+  color: #000;
+  font-weight: 600;
+}
+.what-do-you-need .container .cards .card .card-number {
+  font-size: 160px;
+  color: #000;
+  opacity: 0.4;
 }
 
 #particles-js {
