@@ -1,0 +1,31 @@
+.results{
+    padding: 120px 0px;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        .title{
+            text-align: center;
+            font-size: 48px;
+        }
+
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+
+            .card{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                p{
+                    font-size: 24px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

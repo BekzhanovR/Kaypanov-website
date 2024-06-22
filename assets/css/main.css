@@ -487,6 +487,33 @@ header .container img {
   height: 150px;
 }
 
+.results {
+  padding: 120px 0px;
+}
+.results .container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.results .container .title {
+  text-align: center;
+  font-size: 48px;
+}
+.results .container .cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.results .container .cards .card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.results .container .cards .card p {
+  font-size: 24px;
+  color: #fff;
+}
+
 /* Global styling for Webkit browsers */
 ::-webkit-scrollbar {
   width: 8px;
