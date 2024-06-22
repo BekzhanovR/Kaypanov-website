@@ -514,6 +514,62 @@ header .container img {
   color: #fff;
 }
 
+.qa {
+  padding: 120px 0px;
+}
+.qa .container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.qa .container .title {
+  font-size: 48px;
+  text-align: center;
+}
+.qa .container .cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.qa .container .cards .card {
+  padding: 40px;
+  background-color: #3e3e3f;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.qa .container .cards .card .question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.qa .container .cards .card .question .title {
+  font-size: 28px;
+}
+.qa .container .cards .card .question span {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dcc26b;
+  border-radius: 50%;
+}
+.qa .container .cards .card .question span i {
+  font-size: 26px;
+}
+.qa .container .cards .card .answer {
+  display: none;
+}
+.qa .container .cards .card .answer p {
+  font-size: 24px;
+  color: #999;
+}
+.qa .container .cards .card.active .answer {
+  display: block;
+}
+
 /* Global styling for Webkit browsers */
 ::-webkit-scrollbar {
   width: 8px;
