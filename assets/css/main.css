@@ -445,6 +445,24 @@ header .container img {
   font-size: 24px;
 }
 
+.about-course {
+  padding: 120px 0px;
+}
+.about-course .container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.about-course .container .title {
+  font-size: 48px;
+  text-align: center;
+}
+.about-course .container .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
 /* Global styling for Webkit browsers */
 ::-webkit-scrollbar {
   width: 8px;
@@ -578,6 +596,26 @@ header .container img {
   font-size: 160px;
   color: #000;
   opacity: 0.4;
+}
+
+.course-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #3e3e3f;
+  border: 1px solid #DCC26B;
+  border-radius: 20px;
+  padding: 20px;
+}
+.course-card img {
+  width: 80px;
+  height: 80px;
+}
+.course-card h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #DCC26B;
 }
 
 #particles-js {
