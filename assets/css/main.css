@@ -424,6 +424,27 @@ header .container img {
   justify-content: center;
 }
 
+.video-lesson {
+  padding: 120px 0px;
+}
+.video-lesson .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.video-lesson .container .left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.video-lesson .container .left .title {
+  font-size: 48px;
+}
+.video-lesson .container .left .paragraph {
+  font-size: 24px;
+}
+
 /* Global styling for Webkit browsers */
 ::-webkit-scrollbar {
   width: 8px;

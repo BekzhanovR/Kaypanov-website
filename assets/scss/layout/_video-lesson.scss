@@ -1,0 +1,24 @@
+.video-lesson{
+    padding: 120px 0px;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            .title{
+                font-size: 48px;
+            }
+
+            .paragraph{
+                font-size: 24px;
+            }
+        }
+    }
+}
