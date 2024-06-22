@@ -463,6 +463,30 @@ header .container img {
   gap: 30px;
 }
 
+.popular-brands {
+  padding: 120px 0px;
+}
+.popular-brands .container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.popular-brands .container .title {
+  font-size: 48px;
+  text-align: center;
+}
+.popular-brands .container .cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.popular-brands .container .cards img {
+  width: 150px;
+  height: 150px;
+}
+
 /* Global styling for Webkit browsers */
 ::-webkit-scrollbar {
   width: 8px;

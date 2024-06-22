@@ -1,0 +1,28 @@
+.popular-brands{
+    padding: 120px 0px;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        .title{
+            font-size: 48px;
+            text-align: center;
+        }
+
+        .cards{
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 20px;
+
+            img{
+                width: 150px;
+                height: 150px;
+            }
+
+        }
+    }
+}
