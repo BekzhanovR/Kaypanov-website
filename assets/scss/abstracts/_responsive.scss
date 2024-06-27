@@ -1,0 +1,66 @@
+@media screen and (max-width: 1024px){
+    .hero{
+        height: auto !important;
+
+        .container{
+            flex-direction: column-reverse;
+
+            .left{
+                width: 100% !important;
+            }
+
+            .right{
+                position: relative !important;
+            }
+        }
+    }
+
+    .about{
+        .container{
+            .about-info{
+                flex-direction: column;
+                align-items: center;
+
+                .right{
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+    .the-truth{
+        .the-truth-cards{
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+    }
+
+    .what-do-you-need{
+        .cards{
+            grid-template-columns: repeat(1,1fr) !important;
+        }
+    }
+
+    .video-lesson{
+        .container{
+            flex-direction: column-reverse;
+            gap: 50px;
+
+            .left{
+                width: 100% !important;
+                text-align: left;
+            }
+        }
+    }
+
+    .about-course{
+        .cards{
+            grid-template-columns: repeat(2,1fr) !important;
+        }
+    }
+
+    .qa{
+        .cards{
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+    }
+}

@@ -1,3 +1,44 @@
+@media screen and (max-width: 1024px) {
+  .hero {
+    height: auto !important;
+  }
+  .hero .container {
+    flex-direction: column-reverse;
+  }
+  .hero .container .left {
+    width: 100% !important;
+  }
+  .hero .container .right {
+    position: relative !important;
+  }
+  .about .container .about-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .container .about-info .right {
+    width: 100% !important;
+  }
+  .the-truth .the-truth-cards {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .what-do-you-need .cards {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .video-lesson .container {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .video-lesson .container .left {
+    width: 100% !important;
+    text-align: left;
+  }
+  .about-course .cards {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .qa .cards {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
 html {
   box-sizing: border-box;
 }
