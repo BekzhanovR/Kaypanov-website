@@ -39,6 +39,39 @@
     grid-template-columns: repeat(1, 1fr) !important;
   }
 }
+@media screen and (max-width: 539px) {
+  header .container button {
+    display: none;
+  }
+  .about .container .stats {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .the-truth .the-truth-cards {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .what-do-you-need .cards .card {
+    padding: 40px;
+    width: 100% !important;
+    flex-direction: column;
+  }
+  .what-do-you-need .cards .card img {
+    scale: 0.8;
+  }
+  .what-do-you-need .cards .card .card-number {
+    display: none;
+  }
+  .about-course .cards {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .popular-brands .container .cards {
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .results .container .cards {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
 html {
   box-sizing: border-box;
 }
