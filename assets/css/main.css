@@ -43,6 +43,9 @@
   header .container button {
     display: none;
   }
+  .hero .container .left .title {
+    font-size: 48px !important;
+  }
   .about .container .stats {
     grid-template-columns: repeat(1, 1fr) !important;
   }
