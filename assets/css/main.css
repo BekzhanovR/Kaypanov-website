@@ -40,6 +40,9 @@
   }
 }
 @media screen and (max-width: 539px) {
+  .container {
+    width: 95%;
+  }
   header .container button {
     display: none;
   }
